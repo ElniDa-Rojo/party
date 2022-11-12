@@ -1,0 +1,42 @@
+.titulo1{
+    background-color: rgba(74, 74, 77, 0.616);
+    font-size: 2rem;
+    color: rgba(12, 190, 235, 0.664);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 5rem;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('font.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;}
+.titulo2{
+        font-family: 'Kolker Brush';
+        font-size: 2.5rem;
+    }
+li{
+    font-family: "Open Sans";
+}
+button{
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(255, 0, 0) 0 -1px;
+    font-family: 'Comic Neue', cursive;
+    background-image: url(imgbut.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+body{
+    background-image: url(imgbac.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 100%;
+}
