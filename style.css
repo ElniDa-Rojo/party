@@ -38,5 +38,41 @@ body{
     background-image: url(imgbac.jpg);
     background-repeat: no-repeat;
     background-position: right;
-    background-position-y: 100%;
+    background-position-y: 500%;
+    background-position-x: 100%;
+    
 }
+.table{  
+    border: 2px;      
+    border-color: blueviolet;
+}
+.table td{
+    border: 1px;
+    text-align: center;
+}
+.table th{
+    background-color: darkcyan;
+    color: whitesmoke;
+}
+.table td:hover{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/30a07e97-07af-4ec3-b09f-19c48a11c538/d3iyetb-b2f1848c-9c87-481b-8ae3-50344a3afb07.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzMwYTA3ZTk3LTA3YWYtNGVjMy1iMDlmLTE5YzQ4YTExYzUzOFwvZDNpeWV0Yi1iMmYxODQ4Yy05Yzg3LTQ4MWItOGFlMy01MDM0NGEzYWZiMDcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GplmY4Nht-8rFsCrpLbnA5tPu2SHXR9ifxitQFf-414);
+    color: black;
+    background-position-y: 90%;
+    background-repeat: no-repeat;
+    
+}
+.table tr{
+    background-color: aqua;
+    color: black;
+    font-family: 'Kolker Brush';
+    font-size: 2.5rem;    
+}
+caption{
+    font-family: 'Open Sans';
+    src: url('font.ttf') format('truetype');
+}
+.table th:hover{
+    background-color: black;
+    color: white;
+}
+
